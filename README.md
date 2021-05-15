@@ -23,7 +23,7 @@
     - glob 패턴 (.gitignore 처럼)
     - inlcude
         - exclude보다 약하다
-        - * 같은걸 사용하 .ts / .tsx / .d.ts 만 include (JS도 컴파일 하고 싶으면 allow JS 사용)
+        - /* 같은걸 사용하 .ts / .tsx / .d.ts 만 include (JS도 컴파일 하고 싶으면 allow JS 사용)
     - exclude
         - 설정 안하면 4가지(node_modules, bower_components, jspm_packages, <outDir>)를 default로 제외
         - <outDir>은 항상 제외한다. (include에 있어도)
